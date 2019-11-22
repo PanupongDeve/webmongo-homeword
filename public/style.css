@@ -1,0 +1,15 @@
+.radio__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.radio_el {
+    padding-right: 5px;
+}
+
+.app__container {
+    max-width: 1200px;
+}

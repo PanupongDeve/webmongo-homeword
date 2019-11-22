@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+    <title>MongoDB + Express</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class = "page-header">
+            <h1>MongoDB + Express</h1>
+
+        </div>
+        <div class = "row">
+            <div class ="col">
+                <form method="post" action="insert">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" name="fname" placeholder="First Name">
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="firstname">Last Name</label>
+                        <input type="text" class="form-control" name="lname" placeholder="Last Name">
+                    </div>
+                        
+                    <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" name="email" placeholder="email">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea rows="7" cols="50" name="address"  class="form-control" placeholder="Address"></textarea>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="Color">Your favorite Color</label>
+                        <select name="color" class="custom-select">
+                            <option selected>What Do you like Color?</option>
+                            <option value="Purple">Purple</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Green">Green</option>
+                            <option value="Yellow">Yellow</option>
+                            <option value="Orange">Orange</option>
+                            <option value="Red">Red</option>
+                          </select>
+                    </div>
+
+                     <div class="radio__container">
+                        <div class="form-check radio_el">
+                            <input class="form-check-input" type="radio" name="gender" value="male" checked>
+                            <label class="form-check-label">
+                              Male
+                            </label>
+                          </div>
+                          <div class="form-check radio_el">
+                            <input class="form-check-input" type="radio" name="gender" value="female">
+                            <label class="form-check-label">
+                              Female
+                            </label>
+                          </div>
+                     </div>
+
+                        
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+                        
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery.min.js"> </script>
+    <script src="./bootstrap/js/bootstrap.min.js"> </script>
+  </body>
+</html>
